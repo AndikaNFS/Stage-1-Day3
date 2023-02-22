@@ -17,7 +17,7 @@ function getData(){
         return alert("pesan harus di isi")
     }
 
-    const emailReceiver = "andikanursasmita@gmail.com"
+    const emailReceiver = "emailpengguna05@gmail.com"
 
     let a = document.createElement('a')
     a.href = `mailto:${emailReceiver}?subject=${subject}&body=Hallo Nama Saya ${name}, ${message}, bisakah anda menghubungi saya di ${phone} ?`
